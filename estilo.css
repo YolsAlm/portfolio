@@ -139,9 +139,9 @@ html{
     width: 50%;
 }
 .sobremi .fila .col h3{
-    font-size: 18px;
+    font-size: 28px;
     font-family: 'Righteous';
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .sobremi .fila .col ul{
     list-style: none;
@@ -152,7 +152,7 @@ html{
 .sobremi .fila .col ul li strong{
     display: inline-block;
     color: #1CB698;
-    width: 100px;
+    width: 130px;
 }
 .sobremi .fila .col ul li span{
     background-color: #1CB698;
@@ -160,11 +160,11 @@ html{
     font-weight: bold;
     border-radius: 5px;
 }
-.sobremi .fila .col{
+.sobremi .fila .col .contenedor-intereses{
     display: flex;
     flex-wrap: wrap;
 }
-.sobremi .fila .col{
+.sobremi .fila .col .contenedor-intereses .interes{
     width: 100px;
     height: 100px;
     background-color: #252A2E;
@@ -175,10 +175,10 @@ html{
     align-items: center;
     justify-content: center;
     transition: .3s;
-}.sobremi .fila .col{
+}.sobremi .fila .col .contenedor-intereses .interes:hover{
     background-color: #1CB698;
 }
-.sobremi .fila .col{
+.sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
     margin-bottom: 10px;
 }
@@ -521,90 +521,7 @@ html{
 .portfolio .galeria .proyecto .overlay:hover h3{
     margin-bottom: 0px;
 }
-/* SECCION CONTACTO */
-.contacto{
-    background-image: url(img/contact_bg.png);
-    background-color: #1e2326;
-    color: #fff;
-    padding: 50px 0;
-}
-.contacto .contenido-seccion{
-    max-width: 1100px;
-    margin: auto;
-}
-.contacto h2{
-    font-size: 48px;
-    font-family: 'Righteous';
-    text-align: center;
-    padding: 20px 0;
-}
-.contacto .fila{
-    display: flex;
-}
-.contacto .col{
-    width: 50%;
-    padding: 10px;
-    position: relative;
-}
-.contacto .col input, .contacto .col textarea{
-    display: block;
-    width: 100%;
-    padding: 18px;
-    border: none;
-    margin-bottom: 20px;
-    background-color: #252A2E;
-    color: #fff;
-    font-size: 18px;
-}
-.contacto button{
-    cursor: pointer;
-    background-color: transparent;
-    border: 2px solid #fff;
-    width: fit-content;
-    display: block;
-    margin: 20px auto;
-    padding: 10px 22px;
-    font-size: 16px;
-    color: #fff;
-    position: relative;
-    z-index: 10;
-}
-.contacto button .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: #1CB698;
-    z-index: -1;
-    transition: 1s;
-}
-.contacto button:hover .overlay{
-    width: 100%;
-}
-.contacto .col img{
-    width: 100%;
-}
-.contacto .col .info{
-    position: absolute;
-    top: 40%;
-    background-color: #252A2E;
-    padding: 20px;
-    max-width: 350px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.contacto .col .info ul{
-    list-style: none;
-}
-.contacto .col .info ul li{
-    margin-bottom: 20px;
-}
-.contacto .col .info ul li i{
-    color: #1CB698;
-    display: inline-block;
-    margin-right: 20px;
-}
+/* SECCION footer */
 footer{
     background-color: #252A2E;
     color: #fff;
