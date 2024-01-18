@@ -268,96 +268,61 @@ html{
     right: -15px;
     font-size: 10px;
 } 
-/* Estas clases se agregaran dinamicamente mediante javascript */
-.skills .skill .javascript{
+/* Estas clases se agregaran dinamicamente mediante programacion */
+.skills .skill .programacion{
     width: 0%;
-    animation: 2s javascript forwards;
+    animation: 2s programacion forwards;
 }
-@keyframes javascript {
+@keyframes programacion {
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+
+.skills .skill .sistemas{
+    width: 0%;
+    animation: 2s sistemas forwards;
+}
+@keyframes sistemas {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+
+.skills .skill .bbdd{
+    width: 0%;
+    animation: 2s bbdd forwards;
+}
+@keyframes bbdd {
     0%{width: 0%;}
     100%{width: 75%;}
 }
 
-.skills .skill .htmlcss{
+.skills .skill .monitorización{
     width: 0%;
-    animation: 2s htmlcss forwards;
+    animation: 2s monitorización forwards;
 }
-@keyframes htmlcss {
-    0%{width: 0%;}
-    100%{width: 89%;}
-}
-
-.skills .skill .photoshop{
-    width: 0%;
-    animation: 2s photoshop forwards;
-}
-@keyframes photoshop {
-    0%{width: 0%;}
-    100%{width: 95%;}
-}
-
-.skills .skill .wordpress{
-    width: 0%;
-    animation: 2s wordpress forwards;
-}
-@keyframes wordpress {
-    0%{width: 0%;}
-    100%{width: 81%;}
-}
-
-.skills .skill .drupal{
-    width: 0%;
-    animation: 2s drupal forwards;
-}
-@keyframes drupal {
-    0%{width: 0%;}
-    100%{width: 55%;}
-}
-
-.skills .skill .comunicacion{
-    width: 0%;
-    animation: 2s comunicacion forwards;
-}
-@keyframes comunicacion {
-    0%{width: 0%;}
-    100%{width: 80%;}
-}
-
-.skills .skill .trabajo{
-    width: 0%;
-    animation: 2s trabajo forwards;
-}
-@keyframes trabajo {
-    0%{width: 0%;}
-    100%{width: 70%;}
-}
-
-.skills .skill .creatividad{
-    width: 0%;
-    animation: 2s creatividad forwards;
-}
-@keyframes creatividad {
-    0%{width: 0%;}
-    100%{width: 99%;}
-}
-
-.skills .skill .dedicacion{
-    width: 0%;
-    animation: 2s dedicacion forwards;
-}
-@keyframes dedicacion {
+@keyframes monitorización {
     0%{width: 0%;}
     100%{width: 65%;}
 }
 
-.skills .skill .proyect{
+.skills .skill .almacenamiento{
     width: 0%;
-    animation: 2s proyect forwards;
+    animation: 2s almacenamiento forwards;
 }
-@keyframes proyect {
+@keyframes almacenamiento {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width: 65%;}
 }
+
+.skills .skill .backup{
+    width: 0%;
+    animation: 2s backup forwards;
+}
+@keyframes backup {
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+
 /* SECCION CURRICULUM */
 .curriculum{
     background-color: #1e2326;
